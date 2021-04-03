@@ -11,6 +11,8 @@
 		0B2436332617A544009864C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2436322617A544009864C5 /* ContentView.swift */; };
 		0B2436352617A545009864C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2436342617A545009864C5 /* Assets.xcassets */; };
 		0B2436382617A545009864C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2436372617A545009864C5 /* Preview Assets.xcassets */; };
+		0B2436412617A605009864C5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2436402617A605009864C5 /* Storyboard.storyboard */; };
+		0B243648261846CC009864C5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B243647261846CC009864C5 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0B2436342617A545009864C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2436372617A545009864C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B2436392617A545009864C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2436402617A605009864C5 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0B243647261846CC009864C5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 		0B24362F2617A544009864C5 /* MIREA-SCHEDULE */ = {
 			isa = PBXGroup;
 			children = (
-				0B2436302617A544009864C5 /* MIREA_SCHEDULEApp.swift */,
 				0B2436322617A544009864C5 /* ContentView.swift */,
+				0B243647261846CC009864C5 /* Launch Screen.storyboard */,
+				0B2436302617A544009864C5 /* MIREA_SCHEDULEApp.swift */,
 				0B2436342617A545009864C5 /* Assets.xcassets */,
+				0B2436402617A605009864C5 /* Storyboard.storyboard */,
 				0B2436392617A545009864C5 /* Info.plist */,
 				0B2436362617A545009864C5 /* Preview Content */,
 			);
@@ -128,6 +134,8 @@
 			files = (
 				0B2436382617A545009864C5 /* Preview Assets.xcassets in Resources */,
 				0B2436352617A545009864C5 /* Assets.xcassets in Resources */,
+				0B243648261846CC009864C5 /* Launch Screen.storyboard in Resources */,
+				0B2436412617A605009864C5 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
